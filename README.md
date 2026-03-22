@@ -30,12 +30,12 @@ impl Developer {
 }
 ```
 
-I'm a **Fullstack Engineer & Web3 Architect** obsessed with the intersection of decentralized finance and artificial intelligence. I design systems where **on-chain trust meets off-chain intelligence** — from sealed-bid auction protocols and RWA tokenization to agentic AI pipelines and retrieval-augmented generation.
+I'm a **Fullstack Engineer & Web3 Architect** obsessed with the intersection of decentralized finance and artificial intelligence. I build secure, complex on-chain programs and smart contracts on **Solana and EVM**. DEX, launchpads like Pump.fun, fundraising programs, bonding curves, sealed-bid auctions, and high-frequency trading backends. I take projects from zero to shipped, fast and clean.
 
-- 🔗 Deep in **EVM smart contract development**, cross-chain architecture & DeFi protocol design
-- 🤖 Building **Generative AI** systems: RAG pipelines, AI agents, LLM orchestration
-- ⚡ High-performance backend engineering in **Rust** — p99 latency that makes infra engineers smile
-- 🏗️ Microservices, event-driven systems & distributed infrastructure at scale
+- 🔗 **Solana & EVM** smart contracts —> DEXes, launchpads, bonding curves, HFT backends, fundraise programs
+- 🤖 **Custom AI solutions** —> RAG pipelines, AI agents, LLM orchestration, semantic search, agentic workflows
+- ⚡ **High-performance Rust** backends —> microservices built for low latency and high throughput
+- 🏗️ **Fullstack** from DB to UI —> event-driven systems, REST/GraphQL APIs, distributed infra at scale
 
 ---
 
@@ -45,6 +45,10 @@ I'm a **Fullstack Engineer & Web3 Architect** obsessed with the intersection of 
 <p>
   <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white"/>
   <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Anchor-2B0AFF?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Solana_Web3.js-9945FF?style=for-the-badge&logo=solana&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SPL_Tokens-14F195?style=for-the-badge&logo=solana&logoColor=black"/>
   <img src="https://img.shields.io/badge/Hardhat-F7DF1E?style=for-the-badge&logo=hardhat&logoColor=black"/>
   <img src="https://img.shields.io/badge/Foundry-000000?style=for-the-badge&logo=foundry&logoColor=white"/>
   <img src="https://img.shields.io/badge/ethers.js-764ABC?style=for-the-badge&logo=ethereum&logoColor=white"/>
@@ -59,8 +63,15 @@ I'm a **Fullstack Engineer & Web3 Architect** obsessed with the intersection of 
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white"/>
+</p>
+
+### 🗄️ Databases & Storage
+<p>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
   <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 </p>
 
 ### 🤖 AI & Machine Learning
@@ -83,12 +94,15 @@ I'm a **Fullstack Engineer & Web3 Architect** obsessed with the intersection of 
   <img src="https://img.shields.io/badge/RainbowKit-7B3FE4?style=for-the-badge&logoColor=white"/>
 </p>
 
-### ☁️ Infrastructure & DevOps
+### ☁️ Infrastructure, DevOps & Testing
 <p>
   <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Mocha-8D6748?style=for-the-badge&logo=mocha&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white"/>
 </p>
 
 ---
@@ -134,9 +148,12 @@ I'm a **Fullstack Engineer & Web3 Architect** obsessed with the intersection of 
 
 **🔗 Web3 & DeFi**
 - Real-World Asset (RWA) tokenization
-- Sealed-bid auction mechanisms
-- Credit scoring on-chain (EVM)
-- Timelock encryption & drand integration
+- Sealed-bid auction smart contracts
+- ZK proofs & privacy-preserving protocols
+- Timelock encryption on-chain
+- MagicBlock & real-time Solana programs
+- Decentralized exchanges & trading protocols
+- Launchpads (Pump.fun style & custom)
 - Cross-chain bridge architecture
 
 </td>
