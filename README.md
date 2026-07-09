@@ -1,195 +1,92 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=SourceSensei&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Fullstack%20Engineer%20%7C%20Web3%20Architect%20%7C%20Generative%20AI&descAlignY=58&descSize=18&descColor=a78bfa&animation=fadeIn" />
+# SourceSensei
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=Building+the+decentralized+web+%F0%9F%94%97;Crafting+AI-powered+systems+%F0%9F%A4%96;RWA+Tokenization+%7C+DeFi+Protocols+%F0%9F%92%8E;RAG+Pipelines+%7C+Agentic+AI+%F0%9F%A7%A0;Smart+Contracts+%7C+EVM+%7C+Rust)](https://git.io/typing-svg)
+Web3 smart-contract engineer and full-stack builder focused on Solana, EVM, secure protocol design, and AI-native developer tools.
 
-</div>
-
----
-
-## 🧬 About Me
-
-```rust
-struct Developer {
-    name:       &'static str,
-    focus:      Vec<&'static str>,
-    building:   &'static str,
-    motto:      &'static str,
-}
-
-impl Developer {
-    fn new() -> Self {
-        Self {
-            name:     "SourceSensei",
-            focus:    vec!["Web3", "Generative AI", "RAG Systems", "DeFi", "Fullstack"],
-            building: "Credit-weighted RWA launchpads & AI-native dApps",
-            motto:    "Write code that outlasts the hype cycle.",
-        }
-    }
-}
-```
-
-I'm a **Fullstack Engineer & Web3 Architect** obsessed with the intersection of decentralized finance and artificial intelligence. I build secure, complex on-chain programs and smart contracts on **Solana and EVM**. DEX, launchpads like Pump.fun, fundraising programs, bonding curves, sealed-bid auctions, and high-frequency trading backends. I take projects from zero to shipped, fast and clean.
-
-- 🔗 **Solana & EVM** smart contracts —> DEXes, launchpads, bonding curves, HFT backends, fundraise programs
-- 🤖 **Custom AI solutions** —> RAG pipelines, AI agents, LLM orchestration, semantic search, agentic workflows
-- ⚡ **High-performance Rust** backends —> microservices built for low latency and high throughput
-- 🏗️ **Fullstack** from DB to UI —> event-driven systems, REST/GraphQL APIs, distributed infra at scale
-
----
-
-## 🛠️ Tech Stack
-
-### 🔗 Blockchain & Web3
-<p>
-  <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Anchor-2B0AFF?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Solana_Web3.js-9945FF?style=for-the-badge&logo=solana&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SPL_Tokens-14F195?style=for-the-badge&logo=solana&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Hardhat-F7DF1E?style=for-the-badge&logo=hardhat&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Foundry-000000?style=for-the-badge&logo=foundry&logoColor=white"/>
-  <img src="https://img.shields.io/badge/ethers.js-764ABC?style=for-the-badge&logo=ethereum&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Viem-4F46E5?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/IPFS-65C2CB?style=for-the-badge&logo=ipfs&logoColor=white"/>
-</p>
-
-### 🦀 Systems & Backend
-<p>
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white"/>
-</p>
-
-### 🗄️ Databases & Storage
-<p>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-</p>
-
-### 🤖 AI & Machine Learning
-<p>
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Anthropic-CC785C?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge&logoColor=white"/>
-</p>
-
-### 🎨 Frontend
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Wagmi-000000?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/RainbowKit-7B3FE4?style=for-the-badge&logoColor=white"/>
-</p>
-
-### ☁️ Infrastructure, DevOps & Testing
-<p>
-  <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Mocha-8D6748?style=for-the-badge&logo=mocha&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white"/>
-</p>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=SourceSenseiTheRealOne&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=a78bfa&text_color=c9d1d9"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SourceSenseiTheRealOne&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&langs_count=8"/>
+[![Available for Web3 work](https://img.shields.io/badge/available-Web3%20contract%20work-14F195?style=for-the-badge)](https://www.linkedin.com/in/sourcesensei/)
+[![X](https://img.shields.io/badge/X-SourceSenseii-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/SourceSenseii)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-SourceSensei-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sourcesensei/)
 
 </div>
 
-<div align="center">
+## what I build
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=SourceSenseiTheRealOne&theme=tokyonight&hide_border=true&background=0d1117&ring=a78bfa&fire=a78bfa&currStreakLabel=a78bfa"/>
+I build the parts of Web3 products where correctness actually matters: smart contracts, transaction flows, protocol backends, indexing/monitoring tools, and full-stack interfaces that users can trust.
 
-</div>
+My strongest lanes:
 
----
+- Solana programs with Rust, Anchor, SPL tokens, PDAs, CPIs, vaults, governance flows, and Devnet/Mainnet-style validation.
+- EVM smart contracts with Solidity, Foundry, Hardhat, ethers.js, viem, and security-first test suites.
+- Full-stack dApps with TypeScript, Next.js, React, Node.js, PostgreSQL, Redis, Supabase, and wallet integrations.
+- AI systems for Web3 teams: RAG pipelines, agent workflows, audit/research assistants, semantic search, and automation.
+- Security reviews where I map trust boundaries, write adversarial tests, and look for real exploit paths instead of checklist noise.
 
-## 🚀 Current Focus
+I like projects with sharp edges: DeFi, launchpads, auctions, vaults, tokenization, governance, monitoring, trading infra, and AI-assisted security tooling.
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│   🏦  RWA Tokenization    ████████████████████  Web3       │
-│   🤖  Agentic AI / RAG    ███████████████████   AI/ML      │
-│   ⚡  Rust Microservices  ████████████████      Backend    │
-│   🔐  ZK & Privacy        █████████████         Crypto     │
-│   🌐  DeFi Protocols      ████████████████████  Finance    │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
+## selected work
 
----
+| project | stack | what it shows |
+| --- | --- | --- |
+| [SomniBountyAI](https://github.com/SourceSenseiTheRealOne/SomniBountyAI) | TypeScript, agents, Web3 | Autonomous security bounty automation built for the Somnia Agentathon. |
+| [EcoLedger](https://github.com/SourceSenseiTheRealOne/EcoLedger) | TypeScript, blockchain, verification | Blockchain sustainability proof-of-concept for tracking and verifying product claims. |
+| [anchor-voting-project](https://github.com/SourceSenseiTheRealOne/anchor-voting-project) | Rust, Solana, Anchor | Decentralized voting program with on-chain poll creation and voting flows. |
+| [Social_API](https://github.com/SourceSenseiTheRealOne/Social_API) | Rust, backend | Rust microservice for social interactions, counters, and leaderboard-style data. |
+| [Paradox_Betting_Platform](https://github.com/SourceSenseiTheRealOne/Paradox_Betting_Platform) | TypeScript, full-stack | Betting platform work across product, backend, and interface layers. |
+| [solana_program_monitoring](https://github.com/SourceSenseiTheRealOne/solana_program_monitoring) | Solana, monitoring | Tooling around monitoring Solana program activity and behavior. |
 
-## 🧩 Areas of Expertise
+Some of my deeper protocol work lives in private/client repos, so the public profile is only the visible slice.
 
-<table>
-<tr>
-<td width="50%">
+## roles I am a strong fit for
 
-**🔗 Web3 & DeFi**
-- Real-World Asset (RWA) tokenization
-- Sealed-bid auction smart contracts
-- ZK proofs & privacy-preserving protocols
-- Timelock encryption on-chain
-- MagicBlock & real-time Solana programs
-- Decentralized exchanges & trading protocols
-- Launchpads (Pump.fun style & custom)
-- Cross-chain bridge architecture
+- Solana / Anchor engineer
+- EVM / Solidity engineer
+- Web3 full-stack engineer
+- Smart-contract security reviewer
+- AI agents / RAG engineer for crypto teams
+- DeFi, tokenization, launchpad, governance, or trading infra builder
 
-</td>
-<td width="50%">
+If you need someone who can move from contract logic to backend services to frontend flows without losing the security model, that is my lane.
 
-**🤖 Generative AI**
-- RAG (Retrieval-Augmented Generation)
-- AI agent orchestration & multi-agent systems
-- Vector database design & semantic search
-- LLM fine-tuning & prompt engineering
-- AI-powered due diligence systems
+## stack
 
-</td>
-</tr>
-</table>
+**Blockchain:** Rust, Anchor, Solana Web3.js, SPL Tokens, Solidity, Foundry, Hardhat, ethers.js, viem, wagmi, RainbowKit, IPFS
 
----
+**Backend:** TypeScript, Node.js, Rust, Python, REST, GraphQL, WebSockets, PostgreSQL, Redis, MongoDB, Supabase
 
-## 📡 Connect
+**Frontend:** Next.js, React, Tailwind CSS, wallet adapters, dApp UX, dashboards, admin tooling
 
-<div align="center">
+**AI:** LLM agents, RAG, vector search, LangChain-style pipelines, prompt/workflow design, evaluation loops
 
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/SourceSenseii)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sourcesensei/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SourceSenseiTheRealOne)
+**DevOps/testing:** Docker, GitHub Actions, CI, integration tests, local validators, Devnet flows, security-focused test cases
 
-</div>
+## how I work
+
+- I start with the threat model and the user flow, not just the happy path.
+- I prefer small, testable modules over giant clever abstractions.
+- I write tests for the weird cases: bad authority, stale state, replay-ish flows, broken CPI assumptions, race conditions, and wrong decimals.
+- I care about shipping. A clean architecture that never reaches users is just a diagram.
+
+## currently interested in
+
+- Solana protocol engineering and program audits
+- DeFi primitives, vault systems, token launches, auctions, and governance
+- AI-assisted audit tooling and autonomous research agents
+- Trading infrastructure and market-data systems
+- Full-stack Web3 products that need both speed and security
+
+## contact
+
+Best place to reach me: [LinkedIn](https://www.linkedin.com/in/sourcesensei/) or [X/Twitter](https://x.com/SourceSenseii).
+
+I am open to Web3 contract work, freelance builds, protocol engineering, and security-focused projects.
 
 ---
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&animation=fadeIn"/>
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=SourceSenseiTheRealOne&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=14F195&icon_color=14F195&text_color=c9d1d9)
 
-</div>
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SourceSenseiTheRealOne&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=14F195&text_color=c9d1d9&langs_count=8)
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=SourceSensei&color=a78bfa&style=flat-square&label=Profile+Views"/>
 </div>
