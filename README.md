@@ -2,91 +2,58 @@
 
 # SourceSensei
 
-Web3 smart-contract engineer and full-stack builder focused on Solana, EVM, secure protocol design, and AI-native developer tools.
+**Solana protocol engineering · smart-contract security · DeFi infrastructure**
 
-[![Available for Web3 work](https://img.shields.io/badge/available-Web3%20contract%20work-14F195?style=for-the-badge)](https://www.linkedin.com/in/sourcesensei/)
-[![X](https://img.shields.io/badge/X-SourceSenseii-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/SourceSenseii)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-SourceSensei-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sourcesensei/)
+Rust · Anchor · Cairo · Solidity · Go · TypeScript
+
+[LinkedIn](https://www.linkedin.com/in/sourcesensei/) · [X](https://x.com/SourceSenseii) · Available for protocol engineering, security reviews, and high-trust Web3 builds
 
 </div>
 
-## what I build
+I build and review blockchain systems where failures have financial consequences. My main lane is Solana protocol engineering and smart-contract security: Rust and Anchor programs, SPL token flows, PDAs, CPIs, vaults, authority models, and adversarial testing.
 
-I build the parts of Web3 products where correctness actually matters: smart contracts, transaction flows, protocol backends, indexing/monitoring tools, and full-stack interfaces that users can trust.
+I also ship complete systems across Cairo/Starknet, Solidity/EVM, Go services, TypeScript/Next.js, PostgreSQL, wallet integrations, and AI-assisted engineering tools. I stay close to the trust model from the contract instruction through the backend, indexer, and user transaction flow.
 
-My strongest lanes:
+## Recent public work
 
-- Solana programs with Rust, Anchor, SPL tokens, PDAs, CPIs, vaults, governance flows, and Devnet/Mainnet-style validation.
-- EVM smart contracts with Solidity, Foundry, Hardhat, ethers.js, viem, and security-first test suites.
-- Full-stack dApps with TypeScript, Next.js, React, Node.js, PostgreSQL, Redis, Supabase, and wallet integrations.
-- AI systems for Web3 teams: RAG pipelines, agent workflows, audit/research assistants, semantic search, and automation.
-- Security reviews where I map trust boundaries, write adversarial tests, and look for real exploit paths instead of checklist noise.
-
-I like projects with sharp edges: DeFi, launchpads, auctions, vaults, tokenization, governance, monitoring, trading infra, and AI-assisted security tooling.
-
-## selected work
-
-| project | stack | what it shows |
+| Project | System | Evidence |
 | --- | --- | --- |
-| [SomniBountyAI](https://github.com/SourceSenseiTheRealOne/SomniBountyAI) | TypeScript, agents, Web3 | Autonomous security bounty automation built for the Somnia Agentathon. |
-| [EcoLedger](https://github.com/SourceSenseiTheRealOne/EcoLedger) | TypeScript, blockchain, verification | Blockchain sustainability proof-of-concept for tracking and verifying product claims. |
-| [anchor-voting-project](https://github.com/SourceSenseiTheRealOne/anchor-voting-project) | Rust, Solana, Anchor | Decentralized voting program with on-chain poll creation and voting flows. |
-| [Social_API](https://github.com/SourceSenseiTheRealOne/Social_API) | Rust, backend | Rust microservice for social interactions, counters, and leaderboard-style data. |
-| [Paradox_Betting_Platform](https://github.com/SourceSenseiTheRealOne/Paradox_Betting_Platform) | TypeScript, full-stack | Betting platform work across product, backend, and interface layers. |
-| [solana_program_monitoring](https://github.com/SourceSenseiTheRealOne/solana_program_monitoring) | Solana, monitoring | Tooling around monitoring Solana program activity and behavior. |
+| [CipherBid](https://github.com/SourceSenseiTheRealOne/cipherbid) | Cairo, Starknet, STRK20, Next.js | A funded Vickrey NFT auction with equalized collateral, sealed bids, second-price settlement, atomic NFT delivery, encrypted recovery, and private claims. The complete lifecycle ran on [Starknet mainnet](https://sourcesenseitherealone.github.io/cipherbid/auction/?id=1788040057342) with a [public transaction ledger](https://github.com/SourceSenseiTheRealOne/cipherbid/blob/main/docs/evidence/mainnet/transactions.md). |
+| [SettleShield](https://github.com/SourceSenseiTheRealOne/settleshield) | Solidity, Foundry, Somnia, DreamDEX, Next.js | Bounded protection for pending crypto settlements using live Event Contract quotes, wallet-signed IOC orders, fill accounting, and on-chain receipts. The receipt contract and full lifecycle were [verified on Shannon](https://github.com/SourceSenseiTheRealOne/settleshield#verified-shannon-proof). |
+| [Juntly](https://github.com/SourceSenseiTheRealOne/juntly) | Next.js, Go, Clerk, PostgreSQL, OpenAPI | A production-oriented local services marketplace with durable listings, private contact reveal, messaging, quotations, bookings, moderation, API contracts, backups, recovery procedures, and hardened runtime boundaries. |
+| [Coach Connect Orbit](https://github.com/SourceSenseiTheRealOne/coach-connect-orbit) | Next.js Multi-Zones, Go/Revel, Clerk, tRPC, Ent | A football social network and marketplace scaffold with independently deployable frontend zones, a typed API path, explicit auth boundaries, Docker health checks, and a project-local Supabase boundary. |
+| [Arch Indexer Go](https://github.com/SourceSenseiTheRealOne/arch-indexer-go) | Go, PostgreSQL, Redis, Arch Network | A protocol-neutral, read-only blockchain indexer foundation. It establishes bounded configuration, adapter boundaries, deterministic recovery architecture, race/vet/build gates, and an honest runtime refusal until ingestion is implemented. |
 
-Some of my deeper protocol work lives in private/client repos, so the public profile is only the visible slice.
+Current research includes a [paper-only Solana new-token bot](https://github.com/SourceSenseiTheRealOne/solana-hype-paper-bot) for bounded social-signal experiments, market-data analysis, and risk-controlled strategy evaluation.
 
-## roles I am a strong fit for
+## Selected private and client engineering
 
-- Solana / Anchor engineer
-- EVM / Solidity engineer
-- Web3 full-stack engineer
-- Smart-contract security reviewer
-- AI agents / RAG engineer for crypto teams
-- DeFi, tokenization, launchpad, governance, or trading infra builder
+Some of my deeper work cannot be linked publicly. Recent assignments include:
 
-If you need someone who can move from contract logic to backend services to frontend flows without losing the security model, that is my lane.
+- reviewing and hardening Solana/Anchor fundraising, token, and vault paths, including authority checks, PDA derivation, custody, callbacks, settlement invariants, and synthetic exploit regressions;
+- engineering protocol transaction and indexing paths across testnet and mainnet, with state and receipt readback before release;
+- building least-authority local automation that keeps credentials, sessions, and wallet actions outside autonomous workers.
 
-## stack
+## Engineering focus
 
-**Blockchain:** Rust, Anchor, Solana Web3.js, SPL Tokens, Solidity, Foundry, Hardhat, ethers.js, viem, wagmi, RainbowKit, IPFS
+| Area | What I work on |
+| --- | --- |
+| Solana and protocol security | Rust, Anchor, SPL Tokens, PDAs, CPIs, vaults, launch mechanics, governance, transaction composition, program audits, exploit reproduction, and invariant testing |
+| Smart contracts and privacy | Cairo, Starknet, STRK20, Solidity, Foundry, EVM, commit/reveal systems, auctions, settlement, custody, recovery, and wallet boundaries |
+| Blockchain infrastructure | Go, TypeScript, Node.js, PostgreSQL, Redis, WebSockets, JSON-RPC, indexers, event delivery, deterministic recovery, and operational tooling |
+| Product delivery | Next.js, React, Clerk, Supabase, OpenAPI, Docker, GitHub Actions, browser verification, and secure wallet UX |
+| Applied AI | Agent workflows, RAG, research automation, structured outputs, evaluation loops, and constrained tool access |
 
-**Backend:** TypeScript, Node.js, Rust, Python, REST, GraphQL, WebSockets, PostgreSQL, Redis, MongoDB, Supabase
+## How I engineer
 
-**Frontend:** Next.js, React, Tailwind CSS, wallet adapters, dApp UX, dashboards, admin tooling
+- I map assets, authorities, trust boundaries, and failure states before I optimize the happy path.
+- Contract and transaction work gets adversarial tests for bad authority, stale state, replay, account substitution, decimal mistakes, callback failure, and partial settlement.
+- I separate read authority from write authority. Signers and service credentials stay behind the narrowest boundary that can do the job.
+- "Deployed" means the expected bytecode, configuration, transaction receipts, state changes, and user route were read back from the target network.
+- I state the limits. A scaffold is a scaffold, testnet is testnet, and an unaudited deployment is not production security.
 
-**AI:** LLM agents, RAG, vector search, LangChain-style pipelines, prompt/workflow design, evaluation loops
+## Work with me
 
-**DevOps/testing:** Docker, GitHub Actions, CI, integration tests, local validators, Devnet flows, security-focused test cases
+I am a strong fit for Solana engineer, smart-contract security reviewer, protocol engineer, DeFi engineer, blockchain infrastructure, and senior Web3 full-stack roles. I am especially useful when one person needs to follow the security model across contracts, services, indexers, wallets, and frontend transaction flows.
 
-## how I work
-
-- I start with the threat model and the user flow, not just the happy path.
-- I prefer small, testable modules over giant clever abstractions.
-- I write tests for the weird cases: bad authority, stale state, replay-ish flows, broken CPI assumptions, race conditions, and wrong decimals.
-- I care about shipping. A clean architecture that never reaches users is just a diagram.
-
-## currently interested in
-
-- Solana protocol engineering and program audits
-- DeFi primitives, vault systems, token launches, auctions, and governance
-- AI-assisted audit tooling and autonomous research agents
-- Trading infrastructure and market-data systems
-- Full-stack Web3 products that need both speed and security
-
-## contact
-
-Best place to reach me: [LinkedIn](https://www.linkedin.com/in/sourcesensei/) or [X/Twitter](https://x.com/SourceSenseii).
-
-I am open to Web3 contract work, freelance builds, protocol engineering, and security-focused projects.
-
----
-
-<div align="center">
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=SourceSenseiTheRealOne&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=14F195&icon_color=14F195&text_color=c9d1d9)
-
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SourceSenseiTheRealOne&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=14F195&text_color=c9d1d9&langs_count=8)
-
-</div>
+For contract work, protocol builds, security reviews, or technical consulting, reach me on [LinkedIn](https://www.linkedin.com/in/sourcesensei/) or [X](https://x.com/SourceSenseii).
