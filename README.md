@@ -4,7 +4,7 @@ Software engineer working across Go backends, React/Next.js applications and sma
 
 I'm interested in how systems behave at their boundaries: who can change state, what a failed request leaves behind, and how to recover without repeating a side effect.
 
-`Go` · `TypeScript` · `PostgreSQL` · `Solidity` · `Cairo`
+`Go` · `Rust` · `Python` · `TypeScript` · `PostgreSQL` · `Docker` · `AWS` · `Solidity` · `Cairo` · `Anchor` ·
 
 ## Selected projects
 
